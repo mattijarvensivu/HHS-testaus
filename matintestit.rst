@@ -1,6 +1,6 @@
  
-  # Pekka menee muropakettiin ja haluaa nähdä lisää artikkeleita ja klikkaa
-# kohtaa lisää artikkeleita ja klikkaa ensimmäistä ilmestynyttä artikelia
+  Pekka menee muropakettiin ja haluaa nähdä lisää artikkeleita ja klikkaa  
+  kohtaa lisää artikkeleita ja klikkaa ensimmäistä ilmestynyttä artikelia  
 
 *** Test Cases ***  
 
@@ -19,11 +19,11 @@ SearchForRobotFramework
     Close Browser
 
  
-# pekka päättää mennä murobbssään ja etsiä ADATAN usb muisteja joten hän menee
-# murobbs.muropaketti.comiin ja painaa hintavertailu jonka jälkeen
-# etsii alhaalta usb muistit ja klikkaa sitä
-# Pekka haluaa pelkästään nähdä ADATAN muisteja joten hän klikkaa valmistajista ADATA ja
-# painaa päivitä tuotelistausnappia
+ pekka päättää mennä murobbssään ja etsiä ADATAN usb muisteja joten hän menee  
+ murobbs.muropaketti.comiin ja painaa hintavertailu jonka jälkeen  
+ etsii alhaalta usb muistit ja klikkaa sitä  
+ Pekka haluaa pelkästään nähdä ADATAN muisteja joten hän klikkaa valmistajista ADATA ja  
+ painaa päivitä tuotelistausnappia  
 
 *** Test Cases ***  
 
@@ -42,8 +42,8 @@ SearchRobotFramework
     Click Element  xpath=//*[@id="hvjs-form-filter"]/div[2]/ul[1]/li/a
     
 
-#Pekka Haluaa Hakea tietoa window 10stä ja klikkaa ylhäältä haku kuvaketta ja valitsee sieltä tarkennetun haun
-# Sinne pekka kirjoittaa hakukenttään windows 10 ja saaduista hauista valitsee kuudennen sivun
+Pekka Haluaa Hakea tietoa window 10stä ja klikkaa ylhäältä haku kuvaketta ja valitsee sieltä tarkennetun haun  
+Sinne pekka kirjoittaa hakukenttään windows 10 ja saaduista hauista valitsee kuudennen sivun  
 
 *** Test Cases ***  
 
