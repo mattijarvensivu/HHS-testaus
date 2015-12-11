@@ -1,5 +1,6 @@
  ### MATIN TESTIT
-  # Pekka menee muropakettiin ja haluaa nähdä lisää artikkeleita ja klikkaa     
+  # Pekka menee muropakettiin ja haluaa nähdä lisää artikkeleita ja klikkaa  
+  
   # kohtaa lisää artikkeleita ja klikkaa ensimmäistä ilmestynyttä artikelia  
 
 *** Test Cases ***  
