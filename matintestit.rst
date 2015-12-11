@@ -20,9 +20,13 @@ SearchForRobotFramework
 
  
 # pekka päättää mennä murobbssään ja etsiä ADATAN usb muisteja joten hän menee  
+
 # murobbs.muropaketti.comiin ja painaa hintavertailu jonka jälkeen  
+
 # etsii alhaalta usb muistit ja klikkaa sitä  
+
 # Pekka haluaa pelkästään nähdä ADATAN muisteja joten hän klikkaa valmistajista ADATA ja  
+
 # painaa päivitä tuotelistausnappia  
 
 *** Test Cases ***  
