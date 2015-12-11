@@ -1,5 +1,6 @@
  ### MATIN TESTIT
-  # Pekka menee muropakettiin ja haluaa nähdä lisää artikkeleita ja klikkaa  
+  # Pekka menee muropakettiin ja haluaa nähdä lisää artikkeleita ja klikkaa   
+  
   # kohtaa lisää artikkeleita ja klikkaa ensimmäistä ilmestynyttä artikelia  
 
 *** Test Cases ***  
@@ -45,7 +46,8 @@ SearchRobotFramework
     
     Click Element  xpath=//*[@id="hvjs-form-filter"]/div[2]/ul[1]/li/a
     
-# Pekka Haluaa Hakea tietoa window 10stä ja klikkaa ylhäältä haku kuvaketta ja valitsee sieltä tarkennetun haun    
+# Pekka Haluaa Hakea tietoa window 10stä ja klikkaa ylhäältä haku kuvaketta ja valitsee sieltä tarkennetun haun  
+
 # Sinne pekka kirjoittaa hakukenttään windows 10 ja saaduista hauista valitsee kuudennen sivun   
 
 *** Test Cases ***  
