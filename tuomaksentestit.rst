@@ -5,15 +5,21 @@
 
 *** Settings ***
 Suite Teardown  Close Browser
+
 Library  Selenium2Library  5
 
 *** Test Cases ***
 SearchForRobotFramework
     Open Browser  http://murobbs.muropaketti.com/  ff
+    
     Set Selenium Speed  0.5
+    
     Click Element  link=Prosessorit, emolevyt ja muistit
+    
     Click Element  link=6
+    
     Page Should Contain  prosessoreista
+    
     Close Browser
 
 
@@ -23,11 +29,17 @@ SearchForRobotFramework
 
 *** Test Cases ***
 SearchForRobotFramework
+
     Open Browser  http://murobbs.muropaketti.com/  ff
+    
     Maximize Browser Window
+    
     Set Selenium Speed  0.5
+    
     Click Element  link=HINTAVERTAILU
+    
     Input Text  q  kallis
+    
     Close Browser
 	
 
@@ -39,8 +51,13 @@ SearchForRobotFramework
 *** Test Cases ***
 SearchForRobotFramework
     Open Browser  http://murobbs.muropaketti.com/  ff
+    
     Set Selenium Speed  0.5
+    
     Click Element  link=TYÖPAIKAT
+    
     Click Element  xpath=.//*[@id='inner-wrapper']/div[2]/p[3]/a
+    
     Page Should Contain  Duunitori.fi
+    
     Close Browser
